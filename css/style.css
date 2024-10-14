@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body{
+    height: 1510px;
+}
+.all{
+    border: solid 2px black ;
+    border-radius: 10px;
+    background-color: white;
+    width: 60%;
+ margin: auto;
+    height: 1520;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    display: flex;
+}
+img {
+    width: 87%;
+    margin-right: 20px;
+    padding-right: 0;
+    padding-top: 9px;
+    margin-top: 0px;
+    
+}
+
+.line{
+    margin-top: 104px;
+    height: 134;
+    margin-left: -20px;
+    width: 2px;
+    background-color: black;
+    color: black;
+}
+.links{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    float: left;
+    width: 750%;
+    height: auto;
+    font-size: 20px;
+}
+.links hr{
+    margin-right: 0;
+    margin-top: 10px;
+    width: 45%;
+    padding: 0;
+}
+.links p{
+ margin-right:88px;
+ margin-bottom: 20px;
+ font-size: 20px;
+}
+/* .links ul{
+    border: solid 1px black;
+    width: max-content;
+    padding: 20px 20px 20px 100px;
+} */
+h1{
+    margin-block: 10px;
+    padding-right: 38px;
+    font-size: 40px;
+}
+li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+i{
+    margin-left: 5px;
+}
+.thicon{
+    margin-right: 5px;
+}
+.sec , .third ,.fourth , .fifth ,.sixth{
+    font-size: 35px;
+    padding-right: 20px;
+    margin-block: 15px;
+    
+}
+hr{
+    width: 97%;
+    margin-right: 20px;
+   background-color: black;
+    border: solid 1px black;
+}
+.About , .edu{
+    margin-top: 7px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+ 
+.cintainer4 ul{
+    margin-top: 20px;
+}
+.cintainer4 li, .cintainer3 li ,.cintainer6 li ,.cintainer5 li,.cintainer2 li{
+    list-style-type: disc;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 7px;
+}
+ .secul li{
+    list-style-type: circle;
+}
